@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale1.0">
+      <title>Desafio Api</title>
+      <link rel="stylesheet" href="main.css">  
+    </head>
+    <body>
+        <div class="container">
+            <div class="card-player">
+                <div class="conteu-musica">
+                    <img src="legiao urbana capa.jpg" alt="legiaourbana">
+                    <div class="desc-musica"> 
+                    <audio id=music src="src/Vento No Litoral (320).mp3"></audio>
+                    <div class="cover">
+                        <img id="cover" src="ibagens/legiao urbana capa.jpg"alt="Capa da Musica">
+                    </div>   
+                    <div class="cotroles">
+                <button><img src="Anterior.png" class="alright" alt="voltar" id="anteriormusic"><button>
+                    <button><img src="botão  pause.jpg" class="hoje" alt="play" id="playbutton"></button>
+                <button><img src="Proximo.png" class="ava" alt="avancar" id="nextmusic"></button></div>
+                    <div class="container-progresso">
+                        <input type="range" value="0" min="0" max="100" step="1">
+                    </div>
+                    <div class="tempomusica">
+                        <span>00:00</span>
+                    </div>
+                    <div class="second">
+                        <span>00:00</span>
+                    </div>
+           
+                    <div class="ventania">    
+                         <h2>    Vento no litoral   </h2>      
+                        </div>
+                </div>
+            </div>
+              <script type="module" src="teste.js"></script>
+        </div>
+    </body>
+</html>

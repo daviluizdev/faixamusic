@@ -1,0 +1,106 @@
+.img{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 35px;
+}
+.container{
+    background:#1f0652;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-player{
+    background: #830303;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.conteudo-musica p{
+    font-size: 2.4rem;
+
+}
+
+
+.hoje{
+    position: absolute;
+            top: 66%;
+            left: 780px;
+            width: 55px;
+            height: 55px;
+            }
+
+ .alright{
+             position: absolute;
+                     top: 65.5%;
+                      left: 40%;
+                     width: 55px;
+                     height: 55px;
+        }
+
+ .ava{
+    position: absolute;
+    top: 65.5%;
+     left: 56%;
+    width: 52px;
+    height: 52px;
+
+}
+
+.tempomusica{
+  
+   position: fixed;
+    top: 62.5%;
+     left: 40.5%;
+    width: 45px;
+    height: 45px;
+    color: black;
+    font-family: cursive;
+}
+
+.second{
+
+
+    position: fixed;
+    top: 62.3%;
+     left: 56.5%;
+    width: 48px;
+    height: 48px;
+    color: black;
+    font-family: cursive;
+
+}
+
+.container-progresso{
+
+
+    position: fixed;
+    top: 64.3%;
+     left: 40%;
+    width: 45px;
+    height: 45px;
+    color: black;
+    
+}
+.ventania{
+    position: fixed;
+    top: 69.5%;
+    left: 45%;
+   color: black;
+    font-family:  Arial;
+    white-space: nowrap;
+  width: 100%;
+  overflow: hidden; /* "overflow" value must be different from "visible" */
+  text-overflow: ellipsis;
+    
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
